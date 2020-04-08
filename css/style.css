@@ -1,0 +1,592 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Sen', sans-serif;
+}
+
+/*-- START HEADER SECTION --*/
+
+header {
+    color: #fff;
+    background-image: linear-gradient(rgba(1, 128, 255, 0.81), rgba(41, 72, 255, 0.97), rgba(41, 72, 255, 0.97));
+    padding-bottom: 30px;
+    margin-bottom: 100px;
+}
+
+header nav {
+    padding-top: 10px !important;
+}
+
+header nav a.navbar-brand {
+    color: #fff !important;
+    font-size: 25px;
+    font-family: cursive;
+}
+
+header nav svg {
+    font-size: 40px;
+    color: #fff;
+}
+
+header nav ul li a {
+    padding: 10px 20px !important;
+    color: #fff !important;
+    font-size: 18px;
+}
+
+header .container .row .des {
+    margin-top: 80px;
+    padding: 50px;
+    padding-bottom: 150px;
+}
+
+header .container .row .des p {
+    margin-top: 15px;
+    font-size: 17px;
+    margin-bottom: 0;
+    text-transform: capitalize;
+}
+
+header .container .row .des .btn {
+    font-size: 18px;
+    color: #fff;
+    margin-right: 20px;
+    margin-top: 40px;
+    padding: 15px 50px;
+    border: 2px solid #fff;
+    border-radius: 10px 30px;
+    transition: .3s;
+}
+
+header .container .row .des .s {
+    border-radius: 30px 10px;
+}
+
+header .container .row .des .btn:hover {
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.3);
+    text-decoration: underline;
+}
+
+/*-- END HEADER SECTION --*/
+/*-- START SERVICES SECTION --*/
+
+.services {
+    padding-bottom: 50px;
+}
+
+.services h2 {
+    margin-bottom: 120px;
+    font-size: 50px;
+}
+
+.services .content-box {
+    text-align: center;
+    box-shadow: 0px 0px 80px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    padding-top: 10px;
+    transition: .3s;
+    position: relative;
+    max-width: 400px !important;
+    margin-top: 60px
+}
+
+.services .content-box span {
+    display: inline-block;
+    font-size: 50px;
+    color: #fff;
+    padding: 20px;
+    background-color: rgba(41, 72, 255, 0.97);
+    margin-bottom: 10px;
+    margin-top: -100px;
+}
+
+.services .content-box:hover {
+    box-shadow: 0px 0px 80px rgba(0, 0, 0, 0.3);
+}
+
+/*-- END SERVICES SECTION --*/
+/*-- START ABOUT ME SECTION --*/
+
+.about-me {
+    margin-top: 20px;
+    padding: 50px 0;
+
+}
+
+.about-me h2 {
+    margin-bottom: 100px;
+    font-size: 50px;
+}
+
+.about-me div.box {
+    box-shadow: 0px 0px 150px rgba(0, 0, 0, 0.08);
+    padding: 50px;
+    transition: .5s;
+}
+
+.about-me div.box:hover {
+    box-shadow: 0px 0px 120px rgba(0, 0, 0, 0.3);
+}
+
+.about-me div.box h3 {
+    font-size: 30px;
+    margin-bottom: 15px;
+}
+
+.about-me div.box img {
+    width: 350px;
+    border-radius: 2px;
+}
+
+.about-me div.box p {
+    font-size: 17px;
+    margin-bottom: 10px;
+}
+
+.about-me div.box .btn-me {
+    display: inline-block;
+    font-size: 18px;
+    color: #fff;
+    margin-right: 10px;
+    margin-top: 15px;
+    padding: 10px 20px;
+    background-color: rgba(41, 72, 255, 0.97);
+    transition: 0.3s;
+}
+
+.about-me div.box .btn-me:hover {
+    text-decoration: none;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.3);
+    text-decoration: underline;
+}
+
+/*-- END ABOUT ME SECTION --*/
+/*-- START LIFE JOURNEY SECTION --*/
+
+.life-journey {
+    padding: 50px 0;
+}
+
+.life-journey h2 {
+    font-size: 50px;
+}
+
+.life-journey p {
+    font-size: 18px;
+}
+
+.life-journey .life-journey-bg {
+    margin-top: 100px;
+    background-color: rgba(41, 72, 255, 0.97);
+    color: #fff;
+    padding: 80px 0;
+    transition: .5s;
+}
+
+.life-journey .life-journey-bg:hover {
+    box-shadow: 0px 0px 120px rgba(0, 0, 0, 0.2);
+}
+
+.life-journey .life-journey-bg span {
+    margin: 0 auto;
+    display: inline-block;
+    font-size: 50px;
+    color: #fff;
+}
+
+/*-- END LIFE JOURNEY SECTION --*/
+/*-- START SKILLS SECTION --*/
+
+.skills {
+    padding-bottom: 50px;
+    padding-top: 20px;
+}
+
+.skills .box {
+    box-shadow: 0px 0px 150px rgba(0, 0, 0, 0.08);
+    padding: 0 50px;
+    margin-top: 80px;
+    background: #fff;
+    border-radius: 4px;
+    transition: .5s;
+}
+
+.skills .box:hover {
+    box-shadow: 0px 0px 120px rgba(0, 0, 0, 0.2);
+}
+
+.skills h2 {
+    font-size: 50px;
+}
+
+.skills p {
+    font-size: 18px;
+}
+
+.skill-name {
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin: 15px 0;
+}
+
+.skill-bar {
+    height: 15px;
+    background: #cacaca;
+}
+
+.skill-per {
+    height: 15px;
+    background-color: rgba(41, 72, 255, 0.97);
+    width: 0;
+    transition: 1s linear;
+    position: relative;
+}
+
+.skill-per::before {
+    content: attr(per);
+    position: absolute;
+    padding: 4px 6px;
+    background-color: #000;
+    color: #fff;
+    font-size: 12px;
+    border-radius: 4px;
+    top: -35px;
+    right: 0;
+    transform: translateX(50%);
+}
+
+.skill-per::after {
+    content: '';
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background-color: #000;
+    top: -16px;
+    right: 0;
+    transform: translateX(50%) rotate(45deg);
+    border-radius: 2px;
+}
+
+/*-- END SKILLS SECTION --*/
+/*-- START PORTFOLIO SECTION --*/
+
+.portfolio {
+    padding-bottom: 50px;
+    padding-top: 20px;
+    position: relative;
+}
+
+.portfolio::after {
+    content: '';
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.03);
+    position: absolute;
+    padding: 0px;
+    top: 0;
+    left: 0;
+    transform-origin: top left;
+    transform: skewY(-5deg);
+    z-index: -1;
+}
+
+.portfolio h2 {
+    font-size: 50px;
+    margin-bottom: 80px;
+}
+
+.portfolio .col-lg-6 .content-box {
+    box-shadow: 0px 0px 150px rgba(0, 0, 0, 0.08);
+    padding: 20px;
+    margin: 20px;
+    background: #fff;
+    transition: .5s;
+}
+
+.portfolio .col-lg-6 .content-box:hover {
+    box-shadow: 0px 0px 150px rgba(0, 0, 0, 0.3);
+}
+
+.portfolio .col-lg-6 img {
+    margin-bottom: 20px;
+}
+
+.portfolio .col-lg-6 .btn {
+    display: inline-block;
+    font-size: 18px;
+    color: #fff;
+    margin-right: 10px;
+    margin-top: 15px;
+    padding: 10px 20px;
+    background-color: rgba(41, 72, 255, 0.97);
+    transition: 0.3s;
+}
+
+.portfolio .col-lg-6 .btn:hover {
+    text-decoration: underline;
+}
+
+/*-- END PORTFOLIO SECTION --*/
+/*-- START TESTIMONIALS SECTION --*/
+
+.testimonial {
+    padding-bottom: 50px;
+    padding-top: 20px;
+}
+
+.testimonial h2 {
+    font-size: 50px;
+}
+
+.testimonial .t-des {
+    margin-bottom: 100px;
+}
+
+.testimonial svg {
+    color: #000;
+    font-size: 40px;
+}
+
+.testimonial img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.testimonial .col {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.testimonial span {
+    display: inline-block;
+    font-size: 20px;
+    margin: 4px;
+    color: #fff;
+    border-radius: 4px;
+    padding: 8px;
+    background-color: rgba(41, 72, 255, 0.97);
+}
+
+/*-- END TESTIMONIALS SECTION --*/
+/*-- END WANNA INVITE SECTION --*/
+
+.wanna-invite {
+    padding-bottom: 100px;
+    padding-top: 50px;
+    position: relative;
+}
+
+.wanna-invite::after {
+    content: '';
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.03);
+    position: absolute;
+    padding: 0px;
+    top: 0;
+    left: 0;
+    transform-origin: top left;
+    transform: skewY(-5deg);
+    z-index: -1;
+}
+
+.wanna-invite h2 {
+    font-size: 50px;
+    margin-bottom: 80px;
+}
+
+.wanna-invite .col {
+    margin: 20px;
+    box-shadow: 0px 0px 80px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    transition: .3s;
+    background-color: rgba(41, 72, 255, 0.97);
+    color: #fff;
+}
+
+.wanna-invite .col:hover {
+    box-shadow: 0px 0px 80px rgba(0, 0, 0, 0.3);
+}
+
+.wanna-invite span {
+    display: inline-block;
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+/*-- END WANNA INVITE SECTION --*/
+/*-- START CONTACT SECTION --*/
+
+.contact {
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+
+.contact h2 {
+    font-size: 50px;
+    margin-bottom: 50px;
+}
+
+.contact .col {
+    margin: 0 120px;
+}
+
+.contact .col input {
+    border: none;
+    border-bottom: 2px solid rgba(41, 72, 255, 0.3);
+    border-radius: 0;
+}
+
+.contact .col input:focus {
+    border: none;
+    border-bottom: 2px solid rgba(41, 72, 255, 0.3);
+}
+
+.contact .col textarea {
+    border: none;
+    border-bottom: 2px solid rgba(41, 72, 255, 0.3);
+    border-radius: 0;
+}
+
+.contact .col textarea:focus {
+    border: none;
+    border-bottom: 2px solid rgba(41, 72, 255, 0.3);
+    border-radius: 0;
+}
+
+.contact .col .btn {
+    display: inline-block;
+    font-size: 18px;
+    color: #fff;
+    padding: 10px 80px;
+    background-color: rgba(41, 72, 255, 0.97);
+    transition: 0.3s;
+    border-radius: 0 !important;
+}
+
+/*-- END CONTACT SECTION --*/
+/*-- START FOOTER SECTION --*/
+
+footer {
+    padding: 30px;
+    background: #333;
+    color: #fff;
+}
+
+footer p {
+    margin-top: 10px;
+}
+
+footer span {
+    display: inline-block;
+    font-size: 18px;
+    margin: 4px;
+    color: #fff;
+    border-radius: 10px;
+    padding: 8px;
+    background-color: rgba(41, 72, 255, 0.97);
+}
+
+/*-- END FOOTER SECTION --*/
+/*-- START RESPONSIVE DESIGN --*/
+
+@media only screen and (max-width: 992px) {
+    
+    header .container .row .des {
+        margin-top: 70px;
+    }
+
+    .about-me div.box h3 {
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    .about-me div.box .all-btn {
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+
+    header h1 {
+        font-size: 35px;
+    }
+
+    header .container .row .des {
+        margin-top: 50px;
+        padding: 20px;
+        padding-bottom: 50px;
+    }
+
+    header .container .row .des .btn {
+        font-size: 17px;
+        margin-right: 5px;
+        margin-top: 40px;
+        padding: 10px 20px;
+    }
+
+    .services {
+        padding-bottom: 20px;
+    }
+
+    .services h2 {
+        margin-bottom: 70px;
+        font-size: 35px;
+    }
+
+    .about-me {
+        text-align: center;
+    }
+
+    .about-me h2 {
+        margin-bottom: 80px;
+        font-size: 35px;
+    }
+
+    .life-journey h2 {
+        font-size: 35px;
+    }
+
+    .skills h2 {
+        font-size: 35px;
+    }
+
+    .portfolio .col-lg-6 img {
+        width: 100%;
+        height: auto;
+    }
+
+    .testimonial svg {
+        font-size: 25px;
+    }
+
+    .testimonial h2 {
+        font-size: 35px;
+    }
+
+    .testimonial .col {
+        max-width: 300px;
+        margin: 0 auto;
+    }
+
+    .wanna-invite h2 {
+        font-size: 35px;
+    }
+
+    .contact h2 {
+        font-size: 35px;
+    }
+
+    .contact .col {
+        margin: 0 auto;
+    }
+}
+
+/*-- END RESPONSIVE DESIGN --*/
